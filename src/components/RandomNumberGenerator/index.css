@@ -1,0 +1,44 @@
+.random-number-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.instruction {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.number-display {
+  font-size: 48px;
+  color: #0b69ff;
+  margin-bottom: 24px;
+}
+
+.generate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.generate-button:hover {
+  background-color: #0056b3;
+}
